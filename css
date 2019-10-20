@@ -1,0 +1,115 @@
+table{
+    float:left;
+}
+
+table ,th ,td{
+    
+    border-bottom:1px solid rgb(190, 189, 189);
+    border-left:1px solid rgb(194, 192, 192);
+    border-collapse: collapse;
+    text-align:center;
+}
+
+
+th,td{
+    padding:3px;
+}
+
+/*
+#table1 td:nth-child(4){
+    color:red;
+}
+*/
+button{
+    height:50px;
+    width:70px;
+    color:white;
+    border:5px;
+    margin-left:3%;
+    font-weight:bold;
+    font-size:18px;
+    background:#000;
+}
+
+
+button:hover{
+    background: #000;
+}
+
+
+div.main-tables{
+    height:570px;
+    width:100%;
+    border:0px solid red;
+    
+}
+
+div.inner-table3 ,div.inner-table4{
+    height:100%;
+    border:0px solid green;
+    float:left;
+
+}
+    
+div.inner-table4{
+    float:right;
+}
+
+
+.table3 , .table4{
+    width:600px;
+    
+}
+
+table.table3 caption , table.table4 caption , table.shabihsazi caption{
+    color:#251AB0;
+    font:25px arial;
+    
+}
+
+table.table3 tr:nth-child(odd) , table.table4 tr:nth-child(odd),table.shabihsazi tr:nth-child(odd) {
+background: #F3F3F3;
+}
+
+
+table.table3 tr:nth-child(odd):hover , table.table4 tr:nth-child(odd):hover ,table.shabihsazi tr:nth-child(odd):hover  {
+    background:rgb(7, 0, 0);
+    color:white;
+}
+
+table.table3 tr:nth-child(even) , table.table4 tr:nth-child(even),table.shabihsazi tr:nth-child(even) {
+    background: rgb(224, 222, 222);
+}
+    
+    
+table.table3 tr:nth-child(even):hover , table.table4 tr:nth-child(even):hover ,table.shabihsazi tr:nth-child(even):hover  {
+    background:rgb(7, 0, 0);
+    color:white;
+}
+
+    
+th{
+    background-color:black;
+    color:white;
+    font-size:20px;
+    font-weight:100;
+    
+}
+th:first-child{
+    border-top-left-radius:20px;
+}
+th:last-child{
+    border-top-right-radius:20px;
+}
+
+div.name{
+    height:20px;
+    width:100%;
+    background-color:red;
+}
+
+p{
+    color:#000;
+    font-size:30px;
+
+}
